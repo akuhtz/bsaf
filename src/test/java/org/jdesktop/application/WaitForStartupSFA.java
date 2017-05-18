@@ -15,10 +15,18 @@ public class WaitForStartupSFA extends SingleFrameApplication {
 
     private static final Object lock = new Object(); // static: Application is a singleton
 
-    @Override
-    protected void startup() {
-        // do nothing
-    }
+	public WaitForStartupSFA() {
+		super();
+	}
+
+	public WaitForStartupSFA(ApplicationContext context) {
+		super(context);
+	}
+
+	@Override
+	protected void startup() {
+		// do nothing
+	}
 
     /**
      * Unblock the launchAndWait() method
