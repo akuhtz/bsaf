@@ -31,9 +31,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <scm>
-        <connection>scm:svn:https://kenai.com/svn/bsaf~main/framework/trunk</connection>
-        <developerConnection>scm:svn:https://kenai.com/svn/bsaf~main/framework/trunk</developerConnection>
-        <url>http://kenai.com/projects/bsaf/sources/main/show</url>
+        <connection>scm:git:https://github.com/akuhtz/bsaf.git</connection>
+        <developerConnection>scm:git:https://github.com/akuhtz/bsaf.git</developerConnection>
+        <url>https://github.com/akuhtz/bsaf</url>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
